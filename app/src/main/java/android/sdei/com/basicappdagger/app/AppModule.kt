@@ -10,7 +10,7 @@ import dagger.Provides
 import javax.inject.Singleton
 
 @Module
-class AppModule constructor(application: Application) {
+class AppModule (application: Application) {
     private var context: Context?=null
     val PREF_NAME = "InviteGreenPref"
     private val PRIVATE_MODE = 0
